@@ -58,4 +58,4 @@ for(element of students){
     data += `</tr>`;
 }
 //console.log(heading, data);
-document.querySelector("#table").innerHTML += `<tr>${heading}</tr> ${data}`;
+document.querySelector("#table").innerHTML = `<tr>${heading}</tr>${data}`;
